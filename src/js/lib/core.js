@@ -9,7 +9,6 @@ $.prototype.init = function (selector){
     }
 
     if(selector.tagName){
-        console.log(this[0])
         this[0] = selector;
         this.length = 1;
         return this;
