@@ -1,3 +1,5 @@
 import './lib/lib';
 
-$('.active').toggle();
+$('.btn').on('click', function(){
+    $(this).addClass('lol');
+})
