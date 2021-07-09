@@ -9,3 +9,6 @@
   background-color: blue;
   color: wheat;
   cursor: pointer; }
+
+.btn-active {
+  background-color: red; }
